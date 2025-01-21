@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "solidity",
+    "ms-azuretools.vscode-docker",
+    "GraphQL.vscode-graphql"
+  ]
+}

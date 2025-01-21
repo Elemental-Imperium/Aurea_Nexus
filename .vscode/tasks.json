@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Tests",
+      "type": "shell",
+      "command": "./scripts/run_tests.sh",
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "Deploy Contracts",
+      "type": "shell",
+      "command": "./scripts/deploy_contracts.sh",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "aurea_nexus",
+  "version": "1.0.0",
+  "description": "Aurea Nexus is a comprehensive blockchain-based platform that integrates decentralized technologies with compliance and user-centric design.",
+  "main": "src/backend/server.js",
+  "scripts": {
+    "start": "node src/backend/server.js",
+    "build": "cd src/frontend && pnpm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "hardhat": "^2.22.18"
+  },
+  "author": "",
+  "license": "MIT"
+}
